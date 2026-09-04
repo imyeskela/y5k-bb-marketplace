@@ -6,7 +6,7 @@ Personal BB plugin marketplace maintained by y5k
 ## Add the marketplace
 
 ```bash
-bb marketplace add git:https://github.com/imyeskela/bb-marketplace.git@main
+bb marketplace add git:https://github.com/imyeskela/y5k-bb-marketplace.git@main
 ```
 
 ## Install Preset Sync
