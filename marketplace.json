@@ -1,0 +1,35 @@
+{
+  "$schema": "https://getbb.app/schemas/marketplace.schema.json",
+  "schemaVersion": 1,
+  "name": "y5k",
+  "displayName": "y5k",
+  "description": "BB plugins maintained by y5k.",
+  "plugins": [
+    {
+      "id": "preset-sync",
+      "displayName": "Preset Sync",
+      "description": "Synchronizes portable BB plugins and settings across computers through a Git repository.",
+      "icon": {
+        "url": "./icons/preset-sync.svg"
+      },
+      "tags": [
+        "sync",
+        "configuration",
+        "git",
+        "github",
+        "workflow"
+      ],
+      "author": {
+        "name": "y5k",
+        "github": "imyeskela",
+        "url": "https://github.com/imyeskela"
+      },
+      "source": {
+        "git": {
+          "url": "https://github.com/imyeskela/bb-plugin-preset-sync.git",
+          "range": "^0.2.0"
+        }
+      }
+    }
+  ]
+}
