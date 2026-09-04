@@ -18,3 +18,13 @@ bb plugin install preset-sync@y5k --yes
 Preset Sync keeps portable BB plugins and settings aligned across computers
 through a Git repository. See its
 [documentation](https://github.com/imyeskela/bb-plugin-preset-sync).
+
+## Install Subagents
+
+```bash
+bb plugin install subagents@y5k --yes
+```
+
+Subagents shows active native delegations and child threads belonging to the current
+chat, with status, model information, transcripts, and embedded child-thread chat. See
+its [documentation](https://github.com/imyeskela/bb-plugin-subagents).

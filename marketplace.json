@@ -30,6 +30,32 @@
           "range": "^0.2.0"
         }
       }
+    },
+    {
+      "id": "subagents",
+      "displayName": "Subagents",
+      "description": "Inspect native subagents and child threads that belong to the current chat.",
+      "icon": {
+        "url": "./icons/subagents-97b65add.svg"
+      },
+      "tags": [
+        "agents",
+        "subagents",
+        "chat",
+        "workflow",
+        "interface"
+      ],
+      "author": {
+        "name": "y5k",
+        "github": "imyeskela",
+        "url": "https://github.com/imyeskela"
+      },
+      "source": {
+        "git": {
+          "url": "https://github.com/imyeskela/bb-plugin-subagents.git",
+          "range": "^0.1.0"
+        }
+      }
     }
   ]
 }
